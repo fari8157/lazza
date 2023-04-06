@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazza Icecreams</title>
+  <link  href="imag/logo.png" rel="icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top " style="padding-left: 3em; background-color: black">
+      <a class="navbar-brand" href="#"><img src="imag/logo.png" alt="" width="120"></a>
+      
+     
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">PRODUCTS </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">OFFERS </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">ABOUT US </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">CONTACT US </a>
+          </li>
+          <br>
+         </ul>
+        
+         
+       </div>
+       <div >
+        <img class="navbar-brand" src="imag/search.png" alt="" style="width: 23px;">
+        <img class="navbar-brand"src="imag/cart.png" alt="" style="width: 23px;">
+         <img class="navbar-brand"src="imag/account.png" alt=""style="width: 23px;">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+    </nav>
+   
+  
+  
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      
+       </ol>
+      <div class="carousel-inner ">
+        <div class="carousel-item active" >
+          <img class="d-block w-100 h-100 test"  src="imag/2a.jpg" alt="First slide" >
+        </div>
+        
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+ 
+  <br>
+  <br>
+  <button onclick="openForm()" type="button" class="absolute-button  " ><img class="imgtest" src="imag/Screenshot from 2023-04-04 18-43-28.png" alt=""></button>
+  <!-- <button class="open-button" onclick="openForm()">Open Form</button> -->
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+  <section class="container moodscontainer ">  
+
+    <div class="row text-center  "  >
+      <div class="col-md-12 " ><h1 style="font-weight: 400;">WIDE RANGE OF OUR PRODUCTS</h1></div>
+      <div class="col-md-4">
+        <img src="imag/3.png" alt="" class="img-fluid"><h3 style="font-weight: 400";>BASIC SERIES</h3>
+      </div>
+      <div class="col-md-4">
+        <img src="imag/4.png" alt="" class="img-fluid"><h3 style="font-weight: 400";>INDULGENCE SERIES</h3>
+      </div>
+      <div class="col-md-4">
+        <img src="imag/5.png" alt="" class="img-fluid"><h3 style="font-weight: 400";>PREMIUM SERIES</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+      <div class="row text-center  "  >
+      
+        <div class="col-md-4">
+          <img src="imag/6.png" alt="" class="img-fluid"><h3 style="font-weight: 400">ETHNIC SERIES</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="imag/7.png" alt="" class="img-fluid"><h3 style="font-weight: 400";>NATURAL SERIES</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="imag/8.jpg" alt="" class="img-fluid"><h3 style="font-weight: 400";>BOUTIQUE SERIES</h3>
+        </div>
+      </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <section class="offersx" style="background-color: #000;">
+      <div class="container">
+        <img src="imag/9.jpg" alt="" style="width: 100%;">
+      </div>
+
+  </section>
+  <section  style="background-color: #be9509;">
+    <div class="container p-3">
+     <img src="imag/10.jpeg" alt=""  style="width: 100%;">
+   </div>
+  </section>
+    <footer  style=" background-color: #000;">
+      <div class="container-fluid"  style="padding-top:2em; background-color: #000;color: #bd9408;">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="imag/11.png" alt="" style="width: 9em;">
+        </div>
+        <div class="col-md-2 ">
+        
+          <ul style="list-style-type: none;">
+            <h4 style="font-weight: bold ;">HELP</h4>
+            <li><a href="">Track Your Order</a></li>
+            <li><a href="">Chat with Us</a></li>
+            <li><a href="">Support</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 linki">
+          <ul style="list-style-type: none;">
+            <h4 style="font-weight: bold ;">ABOUT US</h4>
+            <li><a href="">Our History</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Cancellation</a></li>
+            <li><a href="">Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 ">
+        
+          <ul style="list-style-type: none;">
+            <h4 style="font-weight: bold ; ">PRODUCTS</h4>
+            <li><a href="">Our Products</a></li>
+            <li><a href="">Offers</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2" style="color: #bd9408;">
+          
+          <ul style="list-style-type: none;">
+            <h4 style="font-weight: bold ; font-size: 20px;">CONTACT US</h4>
+            <li><a href="">9946037777</a></li>
+            <li><a href="">support@lazza.co.in</a></li>
+            <li>
+              <a href=""><img src="imag/12.png" alt="" style="width: 2em;"></a>
+              <a href=""><img src="imag/13.png" alt="" style="width: 2em;"></a>
+              <a href=""><img src="imag/14.png" alt="" style="width: 2em;"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <img src="imag/15.png" alt="" width="100"  >
+        </div>
+      </div>
+     </div>
+    </footer>
+    <footer class="offersx " style="background-color: black;">
+      <div class="container-fluid " style="border-top: 1px solid rgba(255, 255, 255, 0.418);" >
+    <div class="row d-flex justify-content-between align-items-center p-3">
+      <div class="col-md-6 col-6" style="color:#bd9408;" ><span>© Lazza Ice Creams - 2022</span></div>
+      <div class="col-md-6 col-6 d-flex justify-content-end" style="color:#bd9408;"><span>Site Powered By Igen Software Solutions</span></div>
+  
+  
+      
+    </div>
+  </div>
+  </div>
+  </footer>
+    
+   
+      
+
+  <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+    
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
